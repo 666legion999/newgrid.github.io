@@ -34,7 +34,7 @@ h1{
 .article h3{
     font-style: normal;
     font-family: cursive;
-    font-size: 170%;
+    font-size: 140%;
     text-align: center;
 }
 .article {
@@ -63,7 +63,7 @@ h1{
 }
 
 .article:nth-child(n+1){
-    font-size: 130%;
+    font-size: 100%;
     font-style: italic;
 }
 .article:nth-child(6n+1){
@@ -96,5 +96,11 @@ h1{
     .article{
         margin-bottom: 40px;
     }
+    .article h3{
+        font-size: 140%;
+    }
+    .article:nth-child(n+1){
+    font-size: 130%;
+    font-style: italic;
 }
-
+}
