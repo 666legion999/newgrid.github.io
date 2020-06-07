@@ -4,6 +4,7 @@ body {
   padding: 4em;
   font-family: sans-serif;
   line-height: 1.35; 
+  margin: 0 auto;
 }
 h1{
     font-style: normal;
