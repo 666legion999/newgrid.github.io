@@ -1,7 +1,7 @@
 body {
   background-image: url(images/fon1.jpg);
   color: #777;
-  padding: 1.5em;
+  padding: 4em;
   font-family: sans-serif;
   line-height: 1.35; 
 }
@@ -10,7 +10,7 @@ h1{
     letter-spacing: 10px;
     font-family: fantasy;
     font-size: 50px;
-    margin-top:  -30px;
+    margin-top:  -1.8vw;
     text-align: center;
     color: whitesmoke;
     text-shadow: #fff -1px -1px 0, 
@@ -24,18 +24,17 @@ h1{
   border: 1px solid white;
  border-radius: 120px;
 }
-
 .archive {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 260px, 1fr));
-  grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fit, minmax( 250px, 1fr));
+  grid-gap: 1em;
   grid-auto-flow: dense;
 }
 .article h3{
     font-style: normal;
     font-family: cursive;
-    font-size: 140%;
-    text-align: center;
+    font-size: calc(26px + 3 * ((100vw - 600px) / 1920));
+    line-height: 30px;
 }
 .article {
   padding: 1em;
@@ -43,7 +42,7 @@ h1{
   box-shadow:
     0 5px 10px rgba(0, 0, 0, 0.1),
     0 20px 20px rgba(0, 0, 0, 0.05);
-    grid-auto-flow: dense;
+    box-sizing: content-box;
     border: 1px solid white;
     border-radius: 50px;
 }
@@ -63,8 +62,9 @@ h1{
 }
 
 .article:nth-child(n+1){
-    font-size: 100%;
+    font-size: calc(20px + 2 * ((100vw - 600px) / 1920));
     font-style: italic;
+    line-height: 25px;
 }
 .article:nth-child(6n+1){
     background: rgba(200,200,255,0.3);
@@ -94,13 +94,16 @@ h1{
     flex-direction: column;
   }
     .article{
-        margin-bottom: 40px;
+        margin-bottom: 4%;
     }
     .article h3{
-        font-size: 140%;
-    }
+    font-style: normal;
+    font-family: cursive;
+    font-size: calc(26px + 3 * ((100vw - 230px) / 640));
+}
     .article:nth-child(n+1){
-    font-size: 130%;
+    font-size: calc(20px + 2 * ((100vw - 230px) / 640));
     font-style: italic;
+} 
 }
-}
+
