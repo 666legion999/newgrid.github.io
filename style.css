@@ -3,8 +3,7 @@ body {
   color: #777;
   padding: 2em;
   font-family: sans-serif;
-  line-height: 1.35; 
-    font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(8px + (20 - 8) * ((100vw - 300px) / (1600 - 300)));
 }
 h1{
     font-style: normal;
@@ -35,8 +34,9 @@ h1{
 .article h3{
     font-style: normal;
     font-family: cursive;
-    font-size: 140%;
+    font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
     text-align: center;
+    line-height: 1.1;
 }
 .article {
   padding: 1em;
@@ -65,7 +65,7 @@ h1{
 }
 
 .article:nth-child(n+1){
-    font-size: 90%;
+     font-size: calc(8px + (20 - 8) * ((100vw - 300px) / (1600 - 300)));
     font-style: italic;
 }
 .article:nth-child(6n+1){
@@ -99,10 +99,10 @@ h1{
         margin-bottom: 40px;
     }
     .article h3{
-        font-size: 140%;
+         font-size: calc(25px + (30 - 5) * ((100vw - 300px) / (1600 - 300)));
     }
     .article:nth-child(n+1){
-    font-size: 130%;
+     font-size: calc(15px + (20 - 5) * ((100vw - 300px) / (1600 - 300)));
     font-style: italic;
 }
 }
