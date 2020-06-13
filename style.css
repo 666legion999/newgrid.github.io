@@ -99,4 +99,8 @@ h1{
      font-size: calc(15px + (26 - 5) * ((100vw - 300px) / (1600 - 300)));
     font-style: italic;
 }
+  .fblock, .renata, .shnur, .cox, .boy, .pidrila{
+    float: left;
+    padding-bottom: 30px;
+}
 }
