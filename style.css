@@ -55,15 +55,8 @@ h1{
     grid-column: 1 / -1;
 }
 .fblock, .renata, .shnur, .cox, .boy, .pidrila{
-    width: 100%;
-    margin: 0 auto;
-    padding-right: 20px;
     float: left;
 }
-.boy, .pidrila{
-    width: 65%;
-}
-
 .article:nth-child(n+1){
      font-size: calc(8px + (20 - 8) * ((100vw - 300px) / (1600 - 300)));
     font-style: italic;
@@ -102,7 +95,7 @@ h1{
          font-size: calc(25px + (30 - 5) * ((100vw - 300px) / (1600 - 300)));
     }
     .article:nth-child(n+1){
-     font-size: calc(15px + (20 - 5) * ((100vw - 300px) / (1600 - 300)));
+     font-size: calc(15px + (26 - 5) * ((100vw - 300px) / (1600 - 300)));
     font-style: italic;
 }
 }
